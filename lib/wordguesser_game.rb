@@ -1,7 +1,6 @@
 class WordGuesserGame
 
   attr_accessor :word, :guesses, :wrong_guesses
-<<<<<<< HEAD
 
   def initialize(word)
     @word = word
@@ -38,8 +37,6 @@ class WordGuesserGame
   end
 
   # Get a word from remote "random word" service
-
-=======
 
   def initialize(word)
     puts word
@@ -78,7 +75,6 @@ class WordGuesserGame
 
   # Get a word from remote "random word" service
 
->>>>>>> 8abc250 (hw-sinatra-saas-wordguesser ver.1)
   def self.get_random_word
     require 'uri'
     require 'net/http'

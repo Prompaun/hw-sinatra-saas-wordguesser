@@ -1,5 +1,8 @@
 coverage
 .bundle/
 TAGS
+<<<<<<< HEAD
 .ruby-version
+=======
+>>>>>>> origin/master
 *.swp
